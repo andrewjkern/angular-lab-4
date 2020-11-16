@@ -30,7 +30,7 @@ cart.put("/:id", (req, res) => {
   console.log("body", req.body);
   res.json({
     id: req.params.id,
-    body: req.body,
+    body: req.body,  
   });
 });
 cart.delete("/:id", (req, res) => {
